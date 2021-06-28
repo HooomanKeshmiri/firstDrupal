@@ -1,0 +1,4 @@
+name: hello-world
+recipe: lamp
+config:
+  webroot: .
