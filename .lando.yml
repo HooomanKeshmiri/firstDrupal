@@ -1,4 +1,4 @@
-name: hello-world
-recipe: lamp
+name: firstdrupalsite
+recipe: drupal8
 config:
   webroot: .
