@@ -13,7 +13,7 @@ Downloading Lando: https://docs.lando.dev/basics/installation.html
 
 To use this web page first download the code base from github. Following that install Lando on your device and in the repository that you cloned.  
 
-First initializing lando (using `lando init`) with a drupal8 recipe. Following that type `lando start` to have lando build the app in the container. Once this is completed you can use `lando info` to have lando display the database information you need to install drupal such as database name, password, and the host. After this you can either paste the url given by lando into your web browser, or use `open yourURL.lndo.site` into the terminal. The webpage will open and follow the instructions for installing Drupal. 
+Type `lando start` to have lando build the app in the container. Once this is completed you can use `lando info` to have lando display the database information you need to install drupal such as database name, password, and the host. After this you can either paste the url given by lando into your web browser, or use `open yourURL.lndo.site` into the terminal. The webpage will open and follow the instructions for installing Drupal. 
 
 Note: When it asks about the database, that is where you will input the information you got from `lando info`.
 
